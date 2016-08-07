@@ -8,7 +8,6 @@ A user custom `UIAlertController` class.
 You can custom your own alert and actionsheet view's style and action's style. It uses `UIAlertController` similar API methods which you can simply use it.
 
 ![demo](https://github.com/dai-jing/KBAlertController/blob/master/KBAlertController/Screenshots/IMG_8891.jpg)
-![demo](https://github.com/dai-jing/KBAlertController/blob/master/KBAlertController/Screenshots/IMG_8892.jpg)
 ![demo](https://github.com/dai-jing/KBAlertController/blob/master/KBAlertController/Screenshots/IMG_8893.jpg)
 
 Installation
