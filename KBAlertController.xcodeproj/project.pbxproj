@@ -16,9 +16,9 @@
 		0F5C76FF1D573C3A00F932B5 /* KBAlertControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C76FE1D573C3A00F932B5 /* KBAlertControllerTests.m */; };
 		0F5C770A1D573C3A00F932B5 /* KBAlertControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C77091D573C3A00F932B5 /* KBAlertControllerUITests.m */; };
 		0F5C77191D573C9200F932B5 /* KBAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C77181D573C9200F932B5 /* KBAlertController.m */; };
-		0F5C771E1D5752E900F932B5 /* IMG_8893.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C771B1D5752E900F932B5 /* IMG_8893.jpg */; };
-		0F5C771F1D5752E900F932B5 /* IMG_8892.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C771C1D5752E900F932B5 /* IMG_8892.jpg */; };
-		0F5C77201D5752E900F932B5 /* IMG_8891.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C771D1D5752E900F932B5 /* IMG_8891.jpg */; };
+		0FE10BD71D57570300A2CA9E /* IMG_8892.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FE10BD51D57570300A2CA9E /* IMG_8892.jpg */; };
+		0FE10BD81D57570300A2CA9E /* IMG_8891.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FE10BD61D57570300A2CA9E /* IMG_8891.jpg */; };
+		0FE10BDA1D57570D00A2CA9E /* IMG_8893.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FE10BD91D57570D00A2CA9E /* IMG_8893.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,9 +57,9 @@
 		0F5C770B1D573C3A00F932B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F5C77171D573C9200F932B5 /* KBAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBAlertController.h; sourceTree = "<group>"; };
 		0F5C77181D573C9200F932B5 /* KBAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBAlertController.m; sourceTree = "<group>"; };
-		0F5C771B1D5752E900F932B5 /* IMG_8893.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8893.jpg; sourceTree = "<group>"; };
-		0F5C771C1D5752E900F932B5 /* IMG_8892.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8892.jpg; sourceTree = "<group>"; };
-		0F5C771D1D5752E900F932B5 /* IMG_8891.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8891.jpg; sourceTree = "<group>"; };
+		0FE10BD51D57570300A2CA9E /* IMG_8892.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8892.jpg; sourceTree = "<group>"; };
+		0FE10BD61D57570300A2CA9E /* IMG_8891.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8891.jpg; sourceTree = "<group>"; };
+		0FE10BD91D57570D00A2CA9E /* IMG_8893.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8893.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,9 +155,9 @@
 		0F5C771A1D5752B900F932B5 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				0F5C771B1D5752E900F932B5 /* IMG_8893.jpg */,
-				0F5C771C1D5752E900F932B5 /* IMG_8892.jpg */,
-				0F5C771D1D5752E900F932B5 /* IMG_8891.jpg */,
+				0FE10BD51D57570300A2CA9E /* IMG_8892.jpg */,
+				0FE10BD61D57570300A2CA9E /* IMG_8891.jpg */,
+				0FE10BD91D57570D00A2CA9E /* IMG_8893.jpg */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -269,9 +269,9 @@
 				0F5C76F41D573C3A00F932B5 /* LaunchScreen.storyboard in Resources */,
 				0F5C76F11D573C3A00F932B5 /* Assets.xcassets in Resources */,
 				0F5C76EF1D573C3900F932B5 /* Main.storyboard in Resources */,
-				0F5C771E1D5752E900F932B5 /* IMG_8893.jpg in Resources */,
-				0F5C771F1D5752E900F932B5 /* IMG_8892.jpg in Resources */,
-				0F5C77201D5752E900F932B5 /* IMG_8891.jpg in Resources */,
+				0FE10BD71D57570300A2CA9E /* IMG_8892.jpg in Resources */,
+				0FE10BD81D57570300A2CA9E /* IMG_8891.jpg in Resources */,
+				0FE10BDA1D57570D00A2CA9E /* IMG_8893.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +533,7 @@
 				0F5C77101D573C3A00F932B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F5C77111D573C3A00F932B5 /* Build configuration list for PBXNativeTarget "KBAlertControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +542,7 @@
 				0F5C77131D573C3A00F932B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F5C77141D573C3A00F932B5 /* Build configuration list for PBXNativeTarget "KBAlertControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +551,7 @@
 				0F5C77161D573C3A00F932B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
