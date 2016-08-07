@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "KBAlertController"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.summary      = "Custom UIAlertController"
 s.homepage     = "https://github.com/dai-jing/KBAlertController"
 s.license      = { :type => 'MIT', :file => 'LICENSE' }
