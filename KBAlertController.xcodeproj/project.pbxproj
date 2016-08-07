@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F5C76E61D573C3900F932B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C76E51D573C3900F932B5 /* main.m */; };
+		0F5C76E91D573C3900F932B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C76E81D573C3900F932B5 /* AppDelegate.m */; };
+		0F5C76EC1D573C3900F932B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C76EB1D573C3900F932B5 /* ViewController.m */; };
+		0F5C76EF1D573C3900F932B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C76ED1D573C3900F932B5 /* Main.storyboard */; };
+		0F5C76F11D573C3A00F932B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C76F01D573C3A00F932B5 /* Assets.xcassets */; };
+		0F5C76F41D573C3A00F932B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C76F21D573C3A00F932B5 /* LaunchScreen.storyboard */; };
+		0F5C76FF1D573C3A00F932B5 /* KBAlertControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C76FE1D573C3A00F932B5 /* KBAlertControllerTests.m */; };
+		0F5C770A1D573C3A00F932B5 /* KBAlertControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C77091D573C3A00F932B5 /* KBAlertControllerUITests.m */; };
+		0F5C77191D573C9200F932B5 /* KBAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C77181D573C9200F932B5 /* KBAlertController.m */; };
+		0F5C771E1D5752E900F932B5 /* IMG_8893.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C771B1D5752E900F932B5 /* IMG_8893.jpg */; };
+		0F5C771F1D5752E900F932B5 /* IMG_8892.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C771C1D5752E900F932B5 /* IMG_8892.jpg */; };
+		0F5C77201D5752E900F932B5 /* IMG_8891.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C771D1D5752E900F932B5 /* IMG_8891.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F5C76FB1D573C3A00F932B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F5C76D91D573C3900F932B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F5C76E01D573C3900F932B5;
+			remoteInfo = KBAlertController;
+		};
+		0F5C77061D573C3A00F932B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F5C76D91D573C3900F932B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F5C76E01D573C3900F932B5;
+			remoteInfo = KBAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F5C76E11D573C3900F932B5 /* KBAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F5C76E51D573C3900F932B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F5C76E71D573C3900F932B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F5C76E81D573C3900F932B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F5C76EA1D573C3900F932B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0F5C76EB1D573C3900F932B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0F5C76EE1D573C3900F932B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F5C76F01D573C3A00F932B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F5C76F31D573C3A00F932B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F5C76F51D573C3A00F932B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F5C76FA1D573C3A00F932B5 /* KBAlertControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBAlertControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F5C76FE1D573C3A00F932B5 /* KBAlertControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBAlertControllerTests.m; sourceTree = "<group>"; };
+		0F5C77001D573C3A00F932B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F5C77051D573C3A00F932B5 /* KBAlertControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBAlertControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F5C77091D573C3A00F932B5 /* KBAlertControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBAlertControllerUITests.m; sourceTree = "<group>"; };
+		0F5C770B1D573C3A00F932B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F5C77171D573C9200F932B5 /* KBAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBAlertController.h; sourceTree = "<group>"; };
+		0F5C77181D573C9200F932B5 /* KBAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBAlertController.m; sourceTree = "<group>"; };
+		0F5C771B1D5752E900F932B5 /* IMG_8893.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8893.jpg; sourceTree = "<group>"; };
+		0F5C771C1D5752E900F932B5 /* IMG_8892.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8892.jpg; sourceTree = "<group>"; };
+		0F5C771D1D5752E900F932B5 /* IMG_8891.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8891.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F5C76DE1D573C3900F932B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F5C76F71D573C3A00F932B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F5C77021D573C3A00F932B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F5C76D81D573C3900F932B5 = {
+			isa = PBXGroup;
+			children = (
+				0F5C76E31D573C3900F932B5 /* KBAlertController */,
+				0F5C76FD1D573C3A00F932B5 /* KBAlertControllerTests */,
+				0F5C77081D573C3A00F932B5 /* KBAlertControllerUITests */,
+				0F5C76E21D573C3900F932B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F5C76E21D573C3900F932B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F5C76E11D573C3900F932B5 /* KBAlertController.app */,
+				0F5C76FA1D573C3A00F932B5 /* KBAlertControllerTests.xctest */,
+				0F5C77051D573C3A00F932B5 /* KBAlertControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F5C76E31D573C3900F932B5 /* KBAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				0F5C77171D573C9200F932B5 /* KBAlertController.h */,
+				0F5C77181D573C9200F932B5 /* KBAlertController.m */,
+				0F5C76E71D573C3900F932B5 /* AppDelegate.h */,
+				0F5C76E81D573C3900F932B5 /* AppDelegate.m */,
+				0F5C76EA1D573C3900F932B5 /* ViewController.h */,
+				0F5C76EB1D573C3900F932B5 /* ViewController.m */,
+				0F5C76ED1D573C3900F932B5 /* Main.storyboard */,
+				0F5C76F01D573C3A00F932B5 /* Assets.xcassets */,
+				0F5C76F21D573C3A00F932B5 /* LaunchScreen.storyboard */,
+				0F5C76F51D573C3A00F932B5 /* Info.plist */,
+				0F5C771A1D5752B900F932B5 /* Screenshots */,
+				0F5C76E41D573C3900F932B5 /* Supporting Files */,
+			);
+			path = KBAlertController;
+			sourceTree = "<group>";
+		};
+		0F5C76E41D573C3900F932B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F5C76E51D573C3900F932B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F5C76FD1D573C3A00F932B5 /* KBAlertControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F5C76FE1D573C3A00F932B5 /* KBAlertControllerTests.m */,
+				0F5C77001D573C3A00F932B5 /* Info.plist */,
+			);
+			path = KBAlertControllerTests;
+			sourceTree = "<group>";
+		};
+		0F5C77081D573C3A00F932B5 /* KBAlertControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F5C77091D573C3A00F932B5 /* KBAlertControllerUITests.m */,
+				0F5C770B1D573C3A00F932B5 /* Info.plist */,
+			);
+			path = KBAlertControllerUITests;
+			sourceTree = "<group>";
+		};
+		0F5C771A1D5752B900F932B5 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				0F5C771B1D5752E900F932B5 /* IMG_8893.jpg */,
+				0F5C771C1D5752E900F932B5 /* IMG_8892.jpg */,
+				0F5C771D1D5752E900F932B5 /* IMG_8891.jpg */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F5C76E01D573C3900F932B5 /* KBAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F5C770E1D573C3A00F932B5 /* Build configuration list for PBXNativeTarget "KBAlertController" */;
+			buildPhases = (
+				0F5C76DD1D573C3900F932B5 /* Sources */,
+				0F5C76DE1D573C3900F932B5 /* Frameworks */,
+				0F5C76DF1D573C3900F932B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KBAlertController;
+			productName = KBAlertController;
+			productReference = 0F5C76E11D573C3900F932B5 /* KBAlertController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F5C76F91D573C3A00F932B5 /* KBAlertControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F5C77111D573C3A00F932B5 /* Build configuration list for PBXNativeTarget "KBAlertControllerTests" */;
+			buildPhases = (
+				0F5C76F61D573C3A00F932B5 /* Sources */,
+				0F5C76F71D573C3A00F932B5 /* Frameworks */,
+				0F5C76F81D573C3A00F932B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F5C76FC1D573C3A00F932B5 /* PBXTargetDependency */,
+			);
+			name = KBAlertControllerTests;
+			productName = KBAlertControllerTests;
+			productReference = 0F5C76FA1D573C3A00F932B5 /* KBAlertControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F5C77041D573C3A00F932B5 /* KBAlertControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F5C77141D573C3A00F932B5 /* Build configuration list for PBXNativeTarget "KBAlertControllerUITests" */;
+			buildPhases = (
+				0F5C77011D573C3A00F932B5 /* Sources */,
+				0F5C77021D573C3A00F932B5 /* Frameworks */,
+				0F5C77031D573C3A00F932B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F5C77071D573C3A00F932B5 /* PBXTargetDependency */,
+			);
+			name = KBAlertControllerUITests;
+			productName = KBAlertControllerUITests;
+			productReference = 0F5C77051D573C3A00F932B5 /* KBAlertControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F5C76D91D573C3900F932B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = daijing;
+				TargetAttributes = {
+					0F5C76E01D573C3900F932B5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = T7L8K2T3RS;
+					};
+					0F5C76F91D573C3A00F932B5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0F5C76E01D573C3900F932B5;
+					};
+					0F5C77041D573C3A00F932B5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0F5C76E01D573C3900F932B5;
+					};
+				};
+			};
+			buildConfigurationList = 0F5C76DC1D573C3900F932B5 /* Build configuration list for PBXProject "KBAlertController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F5C76D81D573C3900F932B5;
+			productRefGroup = 0F5C76E21D573C3900F932B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F5C76E01D573C3900F932B5 /* KBAlertController */,
+				0F5C76F91D573C3A00F932B5 /* KBAlertControllerTests */,
+				0F5C77041D573C3A00F932B5 /* KBAlertControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F5C76DF1D573C3900F932B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5C76F41D573C3A00F932B5 /* LaunchScreen.storyboard in Resources */,
+				0F5C76F11D573C3A00F932B5 /* Assets.xcassets in Resources */,
+				0F5C76EF1D573C3900F932B5 /* Main.storyboard in Resources */,
+				0F5C771E1D5752E900F932B5 /* IMG_8893.jpg in Resources */,
+				0F5C771F1D5752E900F932B5 /* IMG_8892.jpg in Resources */,
+				0F5C77201D5752E900F932B5 /* IMG_8891.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F5C76F81D573C3A00F932B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F5C77031D573C3A00F932B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F5C76DD1D573C3900F932B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5C76EC1D573C3900F932B5 /* ViewController.m in Sources */,
+				0F5C76E91D573C3900F932B5 /* AppDelegate.m in Sources */,
+				0F5C76E61D573C3900F932B5 /* main.m in Sources */,
+				0F5C77191D573C9200F932B5 /* KBAlertController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F5C76F61D573C3A00F932B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5C76FF1D573C3A00F932B5 /* KBAlertControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F5C77011D573C3A00F932B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5C770A1D573C3A00F932B5 /* KBAlertControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F5C76FC1D573C3A00F932B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F5C76E01D573C3900F932B5 /* KBAlertController */;
+			targetProxy = 0F5C76FB1D573C3A00F932B5 /* PBXContainerItemProxy */;
+		};
+		0F5C77071D573C3A00F932B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F5C76E01D573C3900F932B5 /* KBAlertController */;
+			targetProxy = 0F5C77061D573C3A00F932B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F5C76ED1D573C3900F932B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F5C76EE1D573C3900F932B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F5C76F21D573C3A00F932B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F5C76F31D573C3A00F932B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F5C770C1D573C3A00F932B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F5C770D1D573C3A00F932B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F5C770F1D573C3A00F932B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = KBAlertController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijing.KBAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		0F5C77101D573C3A00F932B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = KBAlertController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijing.KBAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		0F5C77121D573C3A00F932B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KBAlertControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijing.KBAlertControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KBAlertController.app/KBAlertController";
+			};
+			name = Debug;
+		};
+		0F5C77131D573C3A00F932B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KBAlertControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijing.KBAlertControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KBAlertController.app/KBAlertController";
+			};
+			name = Release;
+		};
+		0F5C77151D573C3A00F932B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KBAlertControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijing.KBAlertControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KBAlertController;
+			};
+			name = Debug;
+		};
+		0F5C77161D573C3A00F932B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KBAlertControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijing.KBAlertControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KBAlertController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F5C76DC1D573C3900F932B5 /* Build configuration list for PBXProject "KBAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F5C770C1D573C3A00F932B5 /* Debug */,
+				0F5C770D1D573C3A00F932B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F5C770E1D573C3A00F932B5 /* Build configuration list for PBXNativeTarget "KBAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F5C770F1D573C3A00F932B5 /* Debug */,
+				0F5C77101D573C3A00F932B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F5C77111D573C3A00F932B5 /* Build configuration list for PBXNativeTarget "KBAlertControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F5C77121D573C3A00F932B5 /* Debug */,
+				0F5C77131D573C3A00F932B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0F5C77141D573C3A00F932B5 /* Build configuration list for PBXNativeTarget "KBAlertControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F5C77151D573C3A00F932B5 /* Debug */,
+				0F5C77161D573C3A00F932B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F5C76D91D573C3900F932B5 /* Project object */;
+}
