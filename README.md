@@ -18,6 +18,52 @@ The preferred way of installation is via [CocoaPods](http://cocoapods.org). Just
 pod 'KBAlertController'
 ```
 
-## Example
+Usage
+===============
+you can customize styles with a simplified, chainable and expressive syntax. 
+
 ```
+// Alert
+KBAlertController *alertController = [KBAlertController alertControllerWithTitle:@"Alert" message:@"Are you sure to cancel?" style:^(KBAlertControllerStyle *style) {
+    style.type = KBAlertControllerTypeAlert;
+}];
+    
+KBAlertAction *doneAction = [KBAlertAction actionWithTitle:@"Done"
+                                                     style:^(KBAlertActionStyle *style) {
+                                                         style.font = [UIFont systemFontOfSize:15.f];
+                                                     } handler:^{
+                                                         NSLog(@"done button clicked");
+                                                     }];
+KBAlertAction *confirmAction = [KBAlertAction actionWithTitle:@"Confirm"
+                                                        style:^(KBAlertActionStyle *style) {
+                                                            style.type = KBAlertActionTypeDestructive;
+                                                        } handler:^{
+                                                            NSLog(@"confirm button clicked");
+                                                        }];
+[alertController addActions:@[doneAction, confirmAction]];
+    
+[self presentViewController:alertController animated:YES completion:nil];
+```
+
+```
+// ActionSheet
+KBAlertController *alertController = [KBAlertController alertControllerWithTitle:@"Alert" message:@"Are you sure to cancel?" style:^(KBAlertControllerStyle *style) {
+    style.type = KBAlertControllerTypeActionSheet;
+}];
+    
+KBAlertAction *doneAction = [KBAlertAction actionWithTitle:@"Done"
+                                                     style:^(KBAlertActionStyle *style) {
+                                                         style.font = [UIFont systemFontOfSize:15.f];
+                                                     } handler:^{
+                                                         NSLog(@"done button clicked");
+                                                     }];
+KBAlertAction *confirmAction = [KBAlertAction actionWithTitle:@"Confirm"
+                                                        style:^(KBAlertActionStyle *style) {
+                                                            style.type = KBAlertActionTypeDestructive;
+                                                        } handler:^{
+                                                            NSLog(@"confirm button clicked");
+                                                        }];
+[alertController addActions:@[doneAction, confirmAction]];
+    
+[self presentViewController:alertController animated:YES completion:nil];
 ```
